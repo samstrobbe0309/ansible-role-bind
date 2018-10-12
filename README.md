@@ -144,7 +144,7 @@ Remark that only the network part should be specified here! When specifying a cl
 
 Based on the idea and examples detailed at <https://linuxmonk.ch/wordpress/index.php/2016/managing-dns-zones-with-ansible/> for the gdnsd package, the zonefiles are fully idempotent, and thus only get updated if "real" content changes.
 
-### Zone delgation
+### Zone delegation
 
 To delegate a zone to a DNS, it is enough to create a `NS` record (under delegate) which is the equivalent of:
 
